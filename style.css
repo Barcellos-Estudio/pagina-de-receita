@@ -1,0 +1,51 @@
+body{
+    font-size: 16px;
+    font-family: "Outfit";
+    background-color: hsl(30, 54%, 90%);
+    background-size: cover;
+    min-height: 100vh;
+    padding: 70px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Young-Serif";
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+.titulos-topicos {
+    font-family: "Young-Serif";
+    color: hsl(14, 45%, 36%);
+}
+
+.titulos{
+    font-family: "Young-Serif";
+    color: hsl(332, 51%, 32%);
+}
+
+.box-ao-redor{
+    opacity: 100%;
+    border-radius: 10px;
+    width: 1600px;
+    height: 1400px;
+    padding: 60px;
+    margin: 80px 0px;
+    background-color: #ffffff;
+    z-index: -1;
+}
+
+.imagem-omelete{
+    width: 70%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
